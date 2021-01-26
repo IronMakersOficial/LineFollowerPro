@@ -1,0 +1,33 @@
+main.cpp:70:14:Out_state Sensors_qtr::get_out_state()	16	static
+main.cpp:89:12:State_ir IR_NEC::get_state()	16	static
+main.cpp:90:12:uint32_t IR_NEC::get_data()	16	static
+main.cpp:107:8:void Motor_Driver::set_max_speed(int)	16	static
+main.cpp:140:7:int Control_PID::correction()	16	static
+main.cpp:183:5:int main()	8	static
+main.cpp:234:6:void SystemClock_Config()	88	static
+main.cpp:271:1:Sensors_qtr::Sensors_qtr(ADC_HandleTypeDef*, GPIO_TypeDef*, uint16_t, uint16_t, uint16_t, uint16_t)	32	static
+main.cpp:286:5:int Sensors_qtr::read_adc()	24	static
+main.cpp:296:6:void Sensors_qtr::read_sensors_qtr()	32	static
+main.cpp:310:7:float Sensors_qtr::update_error()	104	static
+main.cpp:361:1:IR_NEC::IR_NEC(TIM_HandleTypeDef*, uint32_t)	24	static
+main.cpp:371:6:void IR_NEC::init()	16	static
+main.cpp:378:6:void IR_NEC::decode()	16	static
+main.cpp:418:6:void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef*)	16	static
+main.cpp:425:6:void IR_NEC::restart()	16	static
+main.cpp:432:1:Motor_Driver::Motor_Driver(int, GPIO_TypeDef*, uint16_t, uint16_t, TIM_HandleTypeDef*, uint32_t)	24	static
+main.cpp:442:6:void Motor_Driver::init()	16	static
+main.cpp:449:6:void Motor_Driver::update_speed(int, bool)	24	static
+main.cpp:482:1:ESC_Turbine::ESC_Turbine(TIM_HandleTypeDef*, uint32_t)	24	static
+main.cpp:489:6:void ESC_Turbine::init()	16	static
+main.cpp:495:6:void ESC_Turbine::update_speed(int)	16	static
+main.cpp:507:6:void ESC_Turbine::calibrate()	16	static
+main.cpp:513:1:Control_PID::Control_PID(float, float, float)	32	static
+main.cpp:525:6:void Control_PID::set_tunings(float, float, float)	24	static
+main.cpp:532:6:void Control_PID::compute(float)	24	static
+main.cpp:547:1:Line_Follower::Line_Follower()	40	static
+main.cpp:562:6:void Line_Follower::init()	16	static
+main.cpp:570:6:void Line_Follower::turn_on_off(IR_NEC*)	16	static
+main.cpp:592:6:void Line_Follower::state_machine()	24	static
+main.cpp:650:6:void Error_Handler()	4	static,ignoring_inline_asm
+main.cpp:659:1:void __static_initialization_and_destruction_0(int, int)	16	static
+main.cpp:659:1:cpp)	8	static
